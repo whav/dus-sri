@@ -48,23 +48,23 @@ export class VideoDemo extends Component {
         this.setState({paused: !this.state.paused});
     }
 
-    shouldComponentUpdate(nextProps, nextState){
-        // pausing / unpausing the video always propagates
-        if (this.state.paused != nextState.paused) {
-            return true;
-        }
-
-        if (this.state.timestamp != nextState.timestamp){
-            return true;
-        }
-        // this has to be solved by immutable.js or similar
-        let ct = this.state.currentTime || 0;
-        if (Math.floor(this._last_checked_ts) === Math.floor(ct)) {
-            console.warn('Not re-rendering');
-            return false;
-        }
-        return true;
-    }
+    //shouldComponentUpdate(nextProps, nextState){
+    //    // pausing / unpausing the video always propagates
+    //    if (this.state.paused != nextState.paused) {
+    //        return true;
+    //    }
+    //
+    //    if (this.state.timestamp != nextState.timestamp){
+    //        return true;
+    //    }
+    //    // this has to be solved by immutable.js or similar
+    //    let ct = this.state.currentTime || 0;
+    //    if (Math.floor(this._last_checked_ts) === Math.floor(ct)) {
+    //        console.warn('Not re-rendering');
+    //        return false;
+    //    }
+    //    return true;
+    //}
 
     setTimestamp(ts) {
         console.log(ts);
