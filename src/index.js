@@ -16,8 +16,8 @@ let _chapters = data.chapter || [],
 
 
 // parse chapters and aside and assign some ids to them (to be used in for jsx loops)
-const chapters = _chapters.map((c, i) => Object.assign({id: 'chapter' + i}, c)),
-      aside = _aside.map((c, i) => Object.assign({id: 'chapter' + i}, c));
+const chapters = _chapters.map((c, i) => Object.assign({id: 'chapter' + i, active: false}, c)),
+      aside = _aside.map((c, i) => Object.assign({id: 'chapter' + i, active: false}, c));
 
 render(
     <VideoDemo chapters={chapters} aside={aside} sources={sources} />,
