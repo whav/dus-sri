@@ -6,9 +6,11 @@ import Video from './components/video';
 import TOC from './components/chapters';
 import Footer from './components/footer';
 import Meta from './components/meta';
+import classnames from 'classnames';
 
 require('./demo.css');
-
+require('purecss/build/base.css');
+require('purecss/build/grids-responsive.css');
 
 export class VideoDemo extends Component {
     constructor(props) {
@@ -33,12 +35,14 @@ export class VideoDemo extends Component {
     }
 
     pause() {
+        console.log('pausing');
         if (!this.state.paused){
             this.togglePlay();
         }
     }
 
     play() {
+        console.log('playing');
         if (this.state.paused) {
             this.togglePlay()
         }
@@ -48,34 +52,23 @@ export class VideoDemo extends Component {
         this.setState({paused: !this.state.paused});
     }
 
-    //shouldComponentUpdate(nextProps, nextState){
-    //    // pausing / unpausing the video always propagates
-    //    if (this.state.paused != nextState.paused) {
-    //        return true;
-    //    }
-    //
-    //    if (this.state.timestamp != nextState.timestamp){
-    //        return true;
-    //    }
-    //    // this has to be solved by immutable.js or similar
-    //    let ct = this.state.currentTime || 0;
-    //    if (Math.floor(this._last_checked_ts) === Math.floor(ct)) {
-    //        console.warn('Not re-rendering');
-    //        return false;
-    //    }
-    //    return true;
-    //}
-
     setTimestamp(ts) {
-        console.log(ts);
         let new_state = {
             timestamp: ts
         };
         if (this.state.paused) {
             new_state.paused = false;
         }
+        console.log(new_state);
         this.setState(new_state);
     }
+
+    componentDidUpdate(prevProps, prevState) {
+        if (this.state.timestamp){
+            this.setState({timestamp: false});
+        }
+    }
+
 
     render() {
         let ts = this.state.currentTime || 0,
@@ -85,20 +78,30 @@ export class VideoDemo extends Component {
 
         // this is not side-effect free!
         this._last_checked_ts = ts;
+        let cn = classnames({paused: this.state.paused}),
+            cn_aside = classnames({paused: !this.state.paused}, 'aside');
 
         return (<div className="videodemo">
         <main className="panels">
-            <div>
+            <div className={cn}>
                 <Video sources={this.props.sources}
                        paused={this.state.paused}
                        handleProgress={this.handleProgress.bind(this)}
                        handleToggle={this.togglePlay.bind(this)}
                        timestamp={this.state.timestamp || false} />
-                <TOC chapters={chapters} handleTimestamp={this.setTimestamp.bind(this)}/>
+                <TOC chapters={chapters}
+                     handleTimestamp={this.setTimestamp.bind(this)}
+                     handlePause={this.pause.bind(this)}
+                     handlePlay={this.play.bind(this)}
+                     paused={this.state.paused} />
             </div>
-            {/*onMouseEnter={this.pause.bind(this)} onMouseLeave={this.play.bind(this)}*/}
-            <div>
-                <Meta items={active_asides} setTime={this.setTimestamp.bind(this)} />
+
+            <div onMouseEnter={this.pause.bind(this)}
+                 onMouseLeave={this.play.bind(this)}
+                 className={cn_aside}>
+                <Meta items={active_asides}
+                      setTime={this.setTimestamp.bind(this)}
+                      />
             </div>
         </main>
         <Footer handleToggle={this.togglePlay.bind(this)} paused={this.state.paused} progress={this.state.progress || 0} />

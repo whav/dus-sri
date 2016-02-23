@@ -20,9 +20,9 @@ class Footer extends Component {
             bottom: 0
         };
         return (<footer>
-            <FloatingActionButton secondary={true} onClick={this.props.handleToggle}>
+            {/*<FloatingActionButton secondary={true} onClick={this.props.handleToggle}>
                 {button_icon}
-            </FloatingActionButton>
+            </FloatingActionButton>*/}
             <LinearProgress mode="determinate" value={progress} style={progress_style}/>
 
         </footer>);

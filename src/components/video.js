@@ -21,7 +21,8 @@ import React, { Component } from 'react'
                 this._video.play();
             }
         }
-        if (new_props.timestamp && (this.props.timestamp != new_props.timestamp)) {
+        if (new_props.timestamp) {
+            console.log('Settings timestamp', new_props.timestamp, this._video);
             this._video.currentTime = new_props.timestamp;
         }
     }
@@ -55,6 +56,7 @@ import React, { Component } from 'react'
                        onPause={this.handleToggle.bind(this)}
                        onPlay={this.handleToggle.bind(this)}
                        onTimeUpdate={this.handleProgress.bind(this)}
+                       autoPlay
                        controls>
             {
                 this.props.sources.map((s) => <source key={s} src={s} type="video/mp4" />)
