@@ -9,7 +9,7 @@ import { VideoDemo } from './app'
 let rootElement = document.getElementById('react-container');
 
 const data = require('../content/dus_sri-concordance.json'),
-    sources = ['../content/dus_sri_recut.mp4'];
+    sources = ['./content/dus_sri_recut.mp4'];
 
 let _chapters = data.chapter || [],
     _aside = data.aside || [];

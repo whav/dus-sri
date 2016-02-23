@@ -4,7 +4,8 @@
   "description": "A small demo application combining video and subtitle tracks.",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "ghpages": "cp -R content/ gh-pages/ && cp index.html index.html && NODE_ENV=production node_modules/.bin/webpack -p --config webpack.config.prod.js"
   },
   "author": "Sean McAllister",
   "license": "ISC",
@@ -21,7 +22,6 @@
     "express": "^4.13.4",
     "json-loader": "^0.5.4",
     "material-ui": "^0.14.4",
-	"purecss": "^0.6.0",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-transform-hmr": "^1.0.2",

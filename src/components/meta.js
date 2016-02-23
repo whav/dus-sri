@@ -29,7 +29,7 @@ let Aside = (p) => {
         { p.text ? <CardText>{p.text}</CardText> : <span />}
 
         <div className="image-container">
-            {p.images.map((img, i) => <ImageReference key={i} src={'/content/' + img.url} caption={img.caption} url={img['external-link']} />)}
+            {p.images.map((img, i) => <ImageReference key={i} src={'./content/' + img.url} caption={img.caption} url={img['external-link']} />)}
         </div>
     </Card>);
 };

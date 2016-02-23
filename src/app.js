@@ -9,8 +9,6 @@ import Meta from './components/meta';
 import classnames from 'classnames';
 
 require('./demo.css');
-require('purecss/build/base.css');
-require('purecss/build/grids-responsive.css');
 
 export class VideoDemo extends Component {
     constructor(props) {
