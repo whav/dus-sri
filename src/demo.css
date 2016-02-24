@@ -52,6 +52,10 @@
     background-color: rgba(86, 93, 100, 0.23);
 }
 
+.aside.paused {
+		opacity: 1;
+}
+
 video {
     width: 80%;
     margin-left: auto;
