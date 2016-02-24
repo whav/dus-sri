@@ -4,8 +4,7 @@
   "description": "A small demo application combining video and subtitle tracks.",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "ghpages": "cp -R content/ gh-pages/ && cp index.html index.html && NODE_ENV=production node_modules/.bin/webpack -p --config webpack.config.prod.js"
+    "ghp": "./scripts/build-gh-pages.sh"
   },
   "author": "Sean McAllister",
   "license": "ISC",

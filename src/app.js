@@ -81,7 +81,7 @@ export class VideoDemo extends Component {
 
         return (<div className="videodemo">
         <main className="panels">
-            <div className={cn}>
+            <div className={cn} onClick={this.play.bind(this)}>
                 <Video sources={this.props.sources}
                        paused={this.state.paused}
                        handleProgress={this.handleProgress.bind(this)}
@@ -94,9 +94,7 @@ export class VideoDemo extends Component {
                      paused={this.state.paused} />
             </div>
 
-            <div onMouseEnter={this.pause.bind(this)}
-                 onMouseLeave={this.play.bind(this)}
-                 className={cn_aside}>
+            <div onClick={this.pause.bind(this)} className={cn_aside}>
                 <Meta items={active_asides}
                       setTime={this.setTimestamp.bind(this)}
                       />

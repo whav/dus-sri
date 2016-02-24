@@ -1,5 +1,11 @@
 {
 	"aside":[
+        {
+          "start": 0,
+          "end": 22,
+          "title": "Dus-sri Demo",
+          "text": "This is a demo. \nYou can click on this part of the screen at any time to pause the video and read the references."
+        },
 		{	"start":22,
 			"end":25,
 			"title":"tshe dbang bud yul ma",

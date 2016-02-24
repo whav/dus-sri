@@ -14,22 +14,24 @@ let ImageReference = (p) => {
             <img src={p.src} />
         </CardMedia>
         <CardText>
-            <h3>{p.caption}</h3>
-            <p><a href={p.url}>{p.url}</a></p>
             <p>
                 {p.caption}
+            </p>
+            <p>
+                <a href={p.url}>{p.url}</a>
             </p>
         </CardText>
         </div>);
 };
 
 let Aside = (p) => {
+    let images = p.images || [];
     return (<Card>
         <CardHeader title={p.title} />
         { p.text ? <CardText>{p.text}</CardText> : <span />}
 
         <div className="image-container">
-            {p.images.map((img, i) => <ImageReference key={i} src={'./content/' + img.url} caption={img.caption} url={img['external-link']} />)}
+            {images.map((img, i) => <ImageReference key={i} src={'./content/' + img.url} caption={img.caption} url={img['external-link']} />)}
         </div>
     </Card>);
 };
