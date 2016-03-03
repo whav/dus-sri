@@ -4,18 +4,18 @@
           "start": 0,
           "end": 8,
           "title": "Dus sRi Demo",
-          "text": "This is a demo. \nYou can click on this part of the screen at any time to pause the video and read the references."
+          "text": "This is a conceptual demo, neither design nor interface nor content are meant to represent a final product. \nYou can click on this part of the screen at any time to pause the video and read the references."
         },
         {
           "start": 9,
           "end": 22,
           "title": "Introduction to the Dus sRi",
-          "text": "The class of demons known as sri  are among the most complex and intriguing in the entire scheme of autochthonous Tibetan supernatural entities. In the myth of royal origins, sri are expressly mentioned by the future king gNya’ khri btsan po as one of five reasons why he is reluctant to descend to earth. Etymologically, the term sri is cognate with the srid (pa), meaning “to exist” or “to come into existence” and, as a noun denoting a class of gods from whom humans are descended. A passage in the text presented here implies that the sri are the polar opposite of the srid pa, the nadir opposed to the zenith. Sri, and particularly the diminutive form sri’u, may also mean “child”, and some texts reveal an ambiguity about the identity of the sri insofar as they are either demons that prey on children, or demons that take the form of children. This notion is reinforced by a term that is apparently synomymous with sri, found both in lDe’u chos ’byung and appearing twice in the present text: sri can, literally “having/possessed with a sri”. \n\nAs so often in Bonpo literature, there is no single, authoritative etiology for the sri. According to the fourteenth-century gZi brjid, there are ten categories of these demons. The text presented here lists nine, and only three of these coincide with the list given in the gZi brjid. In the latter work, the sri are one of the first categories of fiends to appear during the cosmogony, when they emerge from the residual particles of one of the primordial eggs, the Grey Egg of Lightlessness. The origin myth narrated in the text presented here tells a very different story."
+          "text": "The class of demons known as sri  are among the most complex and intriguing in the entire scheme of autochthonous Tibetan supernatural entities. In the myth of royal origins, sri are expressly mentioned by the future king gNya’ khri btsan po as one of five reasons why he is reluctant to descend to earth. Etymologically, the term sri is cognate with the srid (pa), meaning “to exist” or “to come into existence” and, as a noun denoting a class of gods from whom humans are descended. A passage in the text presented here implies that the sri are the polar opposite of the srid pa, the nadir opposed to the zenith. Sri, and particularly the diminutive form sri’u, may also mean “child”, and some texts reveal an ambiguity about the identity of the sri insofar as they are either demons that prey on children, or demons that take the form of children. This notion is reinforced by a term that is apparently synomymous with sri, found both in lDe’u chos ’byung and appearing twice in the present text: sri can, literally “having/possessed with a sri”. \n\nAs so often in Bonpo literature, there is no single, authoritative etiology for the sri. According to the fourteenth-century gZi brjid, there are ten categories of these demons. The text presented here lists nine, and only three of these coincide with the list given in the gZi brjid. In the latter work, the sri are one of the first categories of fiends to appear during the cosmogony, when they emerge from the residual particles of one of the primordial eggs, the Grey Egg of Lightlessness. The origin myth narrated in the text presented here tells a very different story. [Text by C. Ramble]"
         },
 		{	"start":24,
 			"end":27,
 			"title":"tshe dbang bud yul ma",
-			"text":"as produced in the course of other rituals/workshops held in Kathmandu, Nepal (2010, 2015) and in Vienna in 2013.:",
+			"text":"…as produced in the course of other rituals/workshops held in Kathmandu, Nepal (2010, 2015) and in Vienna in 2013.:",
 			"images":[
 				{	"url":"./tormas/KG10 1000,4421_large.jpg",
 					"caption":"Kathmandu 2010",
@@ -30,7 +30,7 @@
 		{	"start":28,
 			"end":31,
 			"title":"stag la me bar",
-			"text":"as produced in the course of other rituals/workshops held in Kathmandu, Nepal (2010, 2015) and in Vienna in 2013.:",
+			"text":"…as produced in the course of other rituals/workshops held in Kathmandu, Nepal (2010, 2015) and in Vienna in 2013.:",
 			"images":[
 				{	"url":"./tormas/UN15 1013,438_large.jpg",
 					"caption":"Kathmandu 2015",
@@ -49,7 +49,7 @@
 		{	"start":32,
 			"end":35,
 			"title":"mi drid ma",
-			"text":"as produced in the course of other rituals/workshops held in Kathmandu, Nepal (2010, 2015) and in Vienna in 2013.:",
+			"text":"…as produced in the course of other rituals/workshops held in Kathmandu, Nepal (2010, 2015) and in Vienna in 2013.:",
 			"images":[
 				{	"url":"./tormas/UN13 1000,7903_large.jpg",
 					"caption":"Vienna, Bön-Exhibition 2013",
@@ -64,7 +64,7 @@
 		{	"start":36,
 			"end":38,
 			"title":"sgra bla ma",
-			"text":"as produced in the course of other rituals/workshops held in Kathmandu, Nepal (2010, 2015) and in Vienna in 2013.:",
+			"text":"…as produced in the course of other rituals/workshops held in Kathmandu, Nepal (2010, 2015) and in Vienna in 2013.:",
 			"images":[
 				{	"url":"./tormas/UN15 1015,121_large.jpg",
 					"caption":"Kathmandu 2015",
@@ -83,7 +83,7 @@
 		{	"start":39,
 			"end":41,
 			"title":"mi bud",
-			"text":"as produced in the course of other rituals/workshops held in Kathmandu, Nepal (2010, 2015) and in Vienna in 2013.:",
+			"text":"…as produced in the course of other rituals/workshops held in Kathmandu, Nepal (2010, 2015) and in Vienna in 2013.:",
 			"images":[
 				{	"url":"./tormas/UN15 1013,387_large.jpg",
 					"caption":"Kathmandu 2015",
@@ -102,7 +102,7 @@
 		{	"start":42,
 			"end":44,
 			"title":"aa bse",
-			"text":"as produced in the course of other rituals/workshops held in Kathmandu, Nepal (2010, 2015) and in Vienna in 2013.:",
+			"text":"…as produced in the course of other rituals/workshops held in Kathmandu, Nepal (2010, 2015) and in Vienna in 2013.:",
 			"images":[
 				{	"url":"./tormas/UN15 1013,516_large.jpg",
 					"caption":"Kathmandu 2015",
@@ -121,7 +121,7 @@
 		{	"start":45,
 			"end":47,
 			"title":"rgyal po nyi pang sad",
-			"text":"as produced in the course of other rituals/workshops held in Kathmandu, Nepal (2010, 2015) and in Vienna in 2013.:",
+			"text":"…as produced in the course of other rituals/workshops held in Kathmandu, Nepal (2010, 2015) and in Vienna in 2013.:",
 			"images":[
 				{	"url":"./tormas/UN15 1015,121_large.jpg",
 					"caption":"Kathmandu 2015",
@@ -140,33 +140,33 @@
 		{	"start":53,
 			"end":80,
 			"title":"sTon pa gshen rab kyi gsungs pa'i sri man (2766a)",
-			"text":"{3} \u2026 \/\/kyai ston pa gshen\n{4} rab \u1E43i bo yis\/ sri yi yas dang rdzas bsags ste\/ sri dang po zur gsu\u1E43 'og tu ni\/ dkar-nag\nri \u1E43o rgya'i btab",
+			"text":"recited text passage: {3} \u2026 \/\/kyai ston pa gshen\n{4} rab \u1E43i bo yis\/ sri yi yas dang rdzas bsags ste\/ sri dang po zur gsu\u1E43 'og tu ni\/ dkar-nag\nri \u1E43o rgya'i btab",
 			"images":[
 				{	"url":"./texts/sntt_2766a_dussri.jpg",
-					"caption":"dur sri tha\u1E43s-cad kyis=\/ \u1E43a ra ya chings chings nan nan\/ ces bris-so\/ ling-ga'i spyi bor au\u1E43\/ snying khar tri\/ pung pa g.yas g.yon\nla pung zhes bris\/ \u1E43chan khung gyas-su khri\/ g.yon du hu\u1E43\/ bla la bla dag 'do\u1E43s-su rbad zhes bris\/ \u1E43nan pa'i dus su bsrung \u1E43a la gtor-\u1E43a\n'bul; lha bro rdung \/ gzir \u1E43nan legs par bya\/ de ltar byas pa'i yon \u1E43chod bkra-shis la zhal gro'o\/ \/\/kyai ston pa gshen\nrab \u1E43i bo yis\/ sri yi yas dang rdzas bsags ste\/ sri dang po zur gsu\u1E43 'og tu ni\/ dkar-nag\nri \u1E43o rgya'i btab\/ srin \u1E43o gso' ba 'di ltar gso\/ nyon cig da\u1E43 sri \u1E43go dgu \u1E43a\/ khyod\nsrin yul \u1E43un pa'i gling na \u1E43i gdug-ga\u1E43\/ rgya \u1E43tsho'i nang na \u1E43i drang nga\u1E43\/ sa ri\u1E43 pa dgu'i\n('og tu \u1E43i 'dug-ga\u1E43\/ srin \u1E43o nag \u1E43o 'dug pa ni\/ sa ri\u1E43 pa)\n\nof all the dur sri \u2026(rpt); MA RA YA CHINGS CHINGS NAN NAN\u2014this is what is to be written. On the crown of the effigy write AUM; on the heart, KHAR TRI; on the right and left shoulders PUNG; in the right armpit KHRI, and in the left HUM; on the limbs (bla = brla) BLA DAG; on the privy parts write RBAD\u2014this is to be written. When [the sri] is being subjugated, tormas should be offered to the protectors, and a sacred dance performed; it should be thoroughly pressed down. Doing this will be fortunate and auspicious for the patron and the priest. Kyai! After accumulating all the ritual items and requisites for the Sri [ritual] of sTon pa gshen rab, for the first sri [or, as for the sri, first:] black and while seals should be attached to the bottom of the triangle. The feeding of the srin mo should performed as follows. Listen, Nine-headed Dam sri! Are you not in the dark continent, the land of the Srin? Are you not cold in that ocean? Are you not at the bottom of the nine levels? Black srin mo, you who are dwelling there, under the nine levels,",
-					"external-link":"http://www.univie.ac.at/bon/rituals/dus-sri/textual/category/5-dussri&img=sntt-2766a-dussri"
+					"caption":"{1} dur sri tha\u1E43s-cad kyis=\/ \u1E43a ra ya chings chings nan nan\/ ces bris-so\/ ling-ga'i spyi bor au\u1E43\/ snying khar tri\/ pung pa g.yas g.yon \n{2} la pung zhes bris\/ \u1E43chan khung gyas-su khri\/ g.yon du hu\u1E43\/ bla la bla dag 'do\u1E43s-su rbad zhes bris\/ \u1E43nan pa'i dus su bsrung \u1E43a la gtor-\u1E43a \n{3} 'bul; lha bro rdung \/ gzir \u1E43nan legs par bya\/ de ltar byas pa'i yon \u1E43chod bkra-shis la zhal gro'o\/ \/\/kyai ston pa gshen \n{4} rab \u1E43i bo yis\/ sri yi yas dang rdzas bsags ste\/ sri dang po zur gsu\u1E43 'og tu ni\/ dkar-nag \n{5} ri \u1E43o rgya'i btab\/ srin \u1E43o gso' ba 'di ltar gso\/ nyon cig da\u1E43 sri \u1E43go dgu \u1E43a\/ khyod \n{6} srin yul \u1E43un pa'i gling na \u1E43i gdug-ga\u1E43\/ rgya \u1E43tsho'i nang na \u1E43i drang nga\u1E43\/ sa ri\u1E43 pa dgu'i \n{7} ('og tu \u1E43i 'dug-ga\u1E43\/ srin \u1E43o nag \u1E43o 'dug pa ni\/ sa ri\u1E43 pa) || \n\n…of all the dur sri \u2026(rpt); MA RA YA CHINGS CHINGS NAN NAN\u2014this is what is to be written. On the crown of the effigy write AUM; on the heart, KHAR TRI; on the right and left shoulders PUNG; in the right armpit KHRI, and in the left HUM; on the limbs (bla = brla) BLA DAG; on the privy parts write RBAD\u2014this is to be written. When [the sri] is being subjugated, tormas should be offered to the protectors, and a sacred dance performed; it should be thoroughly pressed down. Doing this will be fortunate and auspicious for the patron and the priest. Kyai! After accumulating all the ritual items and requisites for the Sri [ritual] of sTon pa gshen rab, for the first sri [or, as for the sri, first:] black and while seals should be attached to the bottom of the triangle. The feeding of the srin mo should performed as follows. Listen, Nine-headed Dam sri! Are you not in the dark continent, the land of the Srin? Are you not cold in that ocean? Are you not at the bottom of the nine levels? Black srin mo, you who are dwelling there, under the nine levels,… [transliteration and draft translation by C. Ramble]",
+					"external-link":"http://www.univie.ac.at/cirdis/research/text-art-and-performance-in-bon-ritual"
 				}
 			]
 		},
 		{	"start":81,
 			"end":89,
 			"title":"sTon pa gshen rab kyi gsungs pa'i sri man (2767b)",
-			"text":"{4} srin ṃo ṃas yar 'ong ba gnyis/ srin yul dug ṃtsho 'khol ṃa dang / srin brag ..",
+			"text":"recited text passage: {4} srin ṃo ṃas yar 'ong ba gnyis/ srin yul dug ṃtsho 'khol ṃa dang / srin brag ..",
 			"images":[
 				{	"url":"./texts/sntt_2767b_dussri.jpg",
-					"caption":"chung g.yu'i lan 'tshal can\/ dar gos gon pa gcig du rdzus (rjus)\/ \/\/ston pa gshen\nrab \u1E43i bo de\/ srin yul gling du \u1E43ar la byon\/ ston pa gshen rab \u1E43i bo yang\/ dbal gyis khye'u\nchung gser gyis thor gtsug can\/ rta dkar zhon pa gcig tu rdzus (rjus)\/ ston pa yas \u1E43as byon pa dang \/\nsrin \u1E43o \u1E43as yar 'ong ba gnyis\/ srin yul dug \u1E43tsho 'khol \u1E43a dang \/ srin brag nag po 'gra\u1E43\nbshed nas\/ gzur pa \u1E43ed pa'i 'phrang la 'jal\/ srin \u1E43o'i ston pa ngo \u1E43a shes\/ ston pa'i srin\n\u1E43o ngos \u1E43a bzung \/ srin \u1E43o de'i \u1E43chid na re\/ dbal gyis khye'u chung zur phud can\/ rta dkar zhon\n\ndisguised herself as a young woman wearing a silken robe with turquoise braided into her plaits (lan \u2019tshal). sTon pa gShen rab mi bo was travelling down to the realm of the ogres. sTon pa gshen rab mi bo too had disguised himself as Powerful Young Man with the Golden Crown, riding a white horse. sTon pa was travelling down, and the demoness, who was travelling up, met on a trail where it was not possible to make way (gzur ba), at the edge of the boiling Poison Lake of the demon-realm and the black demon-crag. The Demoness did not recognise sTon pa, and sTon pa did not recognise the Demoness. The Demoness said, \"Mighty Youth, with the Topknot (zur phud), you,",
-					"external-link":"http://www.univie.ac.at/bon/rituals/dus-sri/textual/category/5-dussri&img=sntt-2767b-dussri"
+					"caption":"{1} chung g.yu'i lan 'tshal can\/ dar gos gon pa gcig du rdzus (rjus)\/ \/\/ston pa gshen \n{2} rab \u1E43i bo de\/ srin yul gling du \u1E43ar la byon\/ ston pa gshen rab \u1E43i bo yang\/ dbal gyis khye'u \n{3} chung gser gyis thor gtsug can\/ rta dkar zhon pa gcig tu rdzus (rjus)\/ ston pa yas \u1E43as byon pa dang \/ \n{4} srin \u1E43o \u1E43as yar 'ong ba gnyis\/ srin yul dug \u1E43tsho 'khol \u1E43a dang \/ srin brag nag po 'gra\u1E43 \n {5} bshed nas\/ gzur pa \u1E43ed pa'i 'phrang la 'jal\/ srin \u1E43o'i ston pa ngo \u1E43a shes\/ ston pa'i srin\n {6} \u1E43o ngos \u1E43a bzung \/ srin \u1E43o de'i \u1E43chid na re\/ dbal gyis khye'u chung zur phud can\/ rta dkar zhon || \n\n…disguised herself as a young woman wearing a silken robe with turquoise braided into her plaits (lan \u2019tshal). sTon pa gShen rab mi bo was travelling down to the realm of the ogres. sTon pa gshen rab mi bo too had disguised himself as Powerful Young Man with the Golden Crown, riding a white horse. sTon pa was travelling down, and the demoness, who was travelling up, met on a trail where it was not possible to make way (gzur ba), at the edge of the boiling Poison Lake of the demon-realm and the black demon-crag. The Demoness did not recognise sTon pa, and sTon pa did not recognise the Demoness. The Demoness said, \"Mighty Youth, with the Topknot (zur phud), you,… [transliteration and draft translation by C. Ramble]",
+					"external-link":"http://www.univie.ac.at/cirdis/research/text-art-and-performance-in-bon-ritual"
 				}
 			]
 		},
 		{	"start":90,
 			"end":107,
 			"title":"sTon pa gshen rab kyi gsungs pa'i sri man (2769b)",
-			"text":"{3} \u2026 \/ \u1E43a gsos legs \u1E43a tshur gson dang \/\n{4} nga'i a kyang ku re yin\/ khyod ni \u1E43i bsad \u1E43i bcad do\/\/ khyod ni nga'i sru \u1E43o yin\/ nga ni khyod kyi",
+			"text":"recited text passage: {3} \u2026 \/ \u1E43a gsos legs \u1E43a tshur gson dang \/\n{4} nga'i a kyang ku re yin\/ khyod ni \u1E43i bsad \u1E43i bcad do\/\/ khyod ni nga'i sru \u1E43o yin\/ nga ni khyod kyi",
 			"images":[
 				{	"url":"./texts/sntt_2769b_dussri.jpg",
-					"caption":"sri legs \u1E43a \u1E43chid na re\/ a a da ni ci \u1E43a gsungs\/ khyed ston pa yin pa ngo \u1E43a\nshes; gshen rab yin pa don \u1E43a rtogs\/\/ khyed kyis sku la \u1E43i sdo'o\/\/ ston pa'i rigs la \u1E43i rnyog go\/\/\n'a bu \u1E43a bsad \u1E43a bcad na\/ ston pa'i ci gsung bka' la nyan\/ gang gsung ngad kyis bka' \u1E43i bcog\/\/ nga\nni \u1E43i yul gling du \u1E43i 'gro'o\/\/ khyed srin yul gling la \u1E43a byon cig\/ de skad srin \u1E43o s\u1E43ra ba dang \/\nston pa gri chung shub la bcug\/ dbal bshos rtse dgu'i byin-gyis-rlabs\/ \u1E43a gsos legs \u1E43a tshur gson dang \/\nnga'i a kyang ku re yin\/ khyod ni \u1E43i bsad \u1E43i bcad do\/\/ khyod ni nga'i sru \u1E43o yin\/ nga ni khyod kyi\n\nand the lovely Dam sri said, \"Oh, what are you saying? I hadn't recognised you as sTon pa, I hadn't realised you were gShen rab. I shall not compete with you; I would not cause trouble to the sTon pa family. If you do not kill or harm me, I shall do whatever you tell me to, I shall not disobey your orders. I shall not go to the realm of humans, and you, do not go to the realm of the demons!\" So said the Demoness. Then sTon pa returned his dagger to its sheath, and bestowed the blessing of the dBal bshos rtse dgu. \"Listen to me, Lovely Girl who was Uncared for! I don't mean it, I'm only joking. I shall not kill you, I shall not harm you. You are my mother's kin, and I am your",
-					"external-link":"http://www.univie.ac.at/bon/rituals/dus-sri/textual/category/5-dussri&img=sntt-2769b-dussri"
+					"caption":"{1} sri legs \u1E43a \u1E43chid na re\/ a a da ni ci \u1E43a gsungs\/ khyed ston pa yin pa ngo \u1E43a \n{2} shes; gshen rab yin pa don \u1E43a rtogs\/\/ khyed kyis sku la \u1E43i sdo'o\/\/ ston pa'i rigs la \u1E43i rnyog go\/\/ \n{3} 'a bu \u1E43a bsad \u1E43a bcad na\/ ston pa'i ci gsung bka' la nyan\/ gang gsung ngad kyis bka' \u1E43i bcog\/\/ nga \n{4} ni \u1E43i yul gling du \u1E43i 'gro'o\/\/ khyed srin yul gling la \u1E43a byon cig\/ de skad srin \u1E43o s\u1E43ra ba dang \/ \n{5} ston pa gri chung shub la bcug\/ dbal bshos rtse dgu'i byin-gyis-rlabs\/ \u1E43a gsos legs \u1E43a tshur gson dang \/ \n{6} nga'i a kyang ku re yin\/ khyod ni \u1E43i bsad \u1E43i bcad do\/\/ khyod ni nga'i sru \u1E43o yin\/ nga ni khyod kyi || \n\n…and the lovely Dam sri said, \"Oh, what are you saying? I hadn't recognised you as sTon pa, I hadn't realised you were gShen rab. I shall not compete with you; I would not cause trouble to the sTon pa family. If you do not kill or harm me, I shall do whatever you tell me to, I shall not disobey your orders. I shall not go to the realm of humans, and you, do not go to the realm of the demons!\" So said the Demoness. Then sTon pa returned his dagger to its sheath, and bestowed the blessing of the dBal bshos rtse dgu. \"Listen to me, Lovely Girl who was Uncared for! I don't mean it, I'm only joking. I shall not kill you, I shall not harm you. You are my mother's kin, and I am your… [transliteration and draft translation by C. Ramble]",
+					"external-link":"http://www.univie.ac.at/cirdis/research/text-art-and-performance-in-bon-ritual"
 				}
 			]
 		},
